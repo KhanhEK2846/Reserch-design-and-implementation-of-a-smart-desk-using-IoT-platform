@@ -10,23 +10,27 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #FFF;
+    background: #FFF;   
 }
 
 .head{
     display: flex;
     width: 100%;
 }
+
 .head img {
     width: 100px;
     height: 80.833px;
-    margin: 0 0 0 43px;
+    margin: 70px 0 0 43px;
+    box-sizing: border-box;
 }
+
 .container{
     width: 100%;
     display: flex;
     flex-direction: column;
 }
+
 #title{
     display: flex;
     align-content: center;
@@ -39,5 +43,67 @@ body{
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
-    margin: 0 0 0 34px;
+    margin: 70px 0 0 34px;
+}
+
+.box{
+    width: 229px;
+    height: 75px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    box-sizing: border-box;
+    
+}
+
+.box1{
+    background-color: #f1eded;
+    border: 1px solid #000;
+    margin-top: 10px;
+    
+}
+
+.box2{
+    background-color: #f1eded;
+    border: 1px solid #000;
+  
+}
+
+.box3{
+    background-color: #f1eded;
+    border: 1px solid #000;
+    
+}
+
+h1{
+    margin-left: 25px;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+
+table, th, td{
+    width: 822px;
+    border: 2px solid; 
+    border-collapse: collapse;
+    padding: 25px;
+    margin-top: 30px;
+    margin-left: 30px;
+    box-sizing: border-box;
+    
+}
+
+th{
+    background-color: #F1EDED;
+}
+
+td{
+    text-align: center;
+}
+
+.body2{
+    display: flex;
 }
