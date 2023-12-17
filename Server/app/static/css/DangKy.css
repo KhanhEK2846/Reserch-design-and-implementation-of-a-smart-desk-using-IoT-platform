@@ -82,13 +82,13 @@ button{
     margin-bottom: 14px;
 }
 
-.Signup-link{
+.Signin-link{
     width: 363px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     text-decoration: underline;
-    text-align: center;
+    text-align: right;
 }
 
 a{
