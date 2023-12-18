@@ -10,6 +10,14 @@ def LogIn():
     if request.method == "POST":
         return
 
+@app.route("/DangKy",methods=['GET', 'POST'])
+def DangKy():
+    if request.method == "GET":
+        return render_template('DangKy.html')
+    if request.method == "POST":
+        return
+
+
 @app.errorhandler(404)
 def page_not_found(error):
     return render_template("404.html"), 404
