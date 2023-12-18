@@ -8,7 +8,9 @@ def LogIn():
     if request.method == "GET":
         return render_template('TrangChu.html')
     if request.method == "POST":
-        return
+        username = request.form['Username']
+        password = request.form['Password']
+        return username + " " + password
 
 @app.route("/DangKy",methods=['GET', 'POST'])
 def DangKy():
