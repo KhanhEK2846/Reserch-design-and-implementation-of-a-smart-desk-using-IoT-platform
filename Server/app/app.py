@@ -1,7 +1,16 @@
-from flask import Flask,render_template,request
+from flask import Flask,render_template,request, redirect
+from firebase_admin import initialize_app, credentials, db
 
+cred = credentials.Certificate("app/key.json")
+default_app = initialize_app(credential=cred,options={'databaseURL':'https://smart-desk-using-iot-pla-63534-default-rtdb.firebaseio.com/'})
+rtdb = db.reference('/Test')
 
 app = Flask(__name__)
+
+@app.route('/Test',methods=['GET', 'POST'])
+def Test():
+    rtdb.set({'hello': 'nothing'})
+    return rtdb.get()
 
 @app.route('/',methods=['GET', 'POST'])
 def LogIn():
