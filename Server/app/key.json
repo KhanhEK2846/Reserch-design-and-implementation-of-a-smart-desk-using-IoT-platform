@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "smart-desk-using-iot-pla-63534",
+  "private_key_id": "2fb57c52702964d05bb72e4190b353f79d4c7a9f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC/k/5Lm/oNZXRb\nkVRqA3cAN3NgI+oSy3xzvjKgPcH8UmAdPghnd47GP4RnLqH+iUDP5VnwgvNVT4yz\n+2Uv7tUDIDBVlPoCktS0/2xtNfp2GvLh7wWHDenNgGQ9NW+11Ei6j0JqZQwczMSv\noM/GlPRriCVqABJ4e5VKjJxyED4g7GOj8YrpHaH0qFzieN184C817Pg0Um4tuUSK\n608hNl7Au+nGQKYwXHwSLr2hM/zH4u4oz8gi74J7U+rn6Mnesk5S8WWg+5oSM5KU\n88Yv1OCFS5ez21ZreLvE37/FPEDBwz1L7yn3mbmILSnbG3dozQkWj3viSuKLpbiM\ne4PpMapjAgMBAAECggEABVH60ea2/wA+Rvy2N2t5NoxTq+vTaEo2XpB9n22XoYY4\nHRfH6/eqA19oMeVdok/1eNCJuuAoGcpnwefNW5NqXvfZ38aPWtrxBUXCoRXKqtT8\nwcF9ic6dG5PhNMHzJD2M94Fa+tFrkLEvFSGGI6GnWAUj5NmzqZzk/HkDLze8QfXC\nTj/UmJqkqpOvwPvwtV5Wl1Aq9tLm+1kcl/BjpVOxT423SvEuJcNDPabcqVeXHhrE\n7/HFwQhaPD2EgGQDsWCZqknlY/7WTdI0ydxk4J1aar1UxrQGsBfGWC5Z97YkiRAO\nFAYVxqGpnYoCVH8mhc8QuLaaXDiw54TWC0scJWJIwQKBgQDoKHd9fWWUQvUw23i9\nERPvwKjb6kpq3dYAzlgLXaoiLReooJO7SOyDO/B/KSNXvHaiXwo2ZJin3jkFn/WN\nKtoyRystYsoQ5+qQ3bdT86tkgdrFoimdG0qtnMd7dPPUXDc0zZJ7M8HRHH47GQQv\nhKvkFHZAxlOXoQpNRG7OJeKWCQKBgQDTQKl58tviMw6N1PgC+teBnfNVQeRQE6wi\nZKpkJ8pRgBYRywY5QmLj5ANng0hH+Jcw9mbOrSnyKTyMrbcF7lE2FWad0HJ6casZ\n5lTRLchIzOZ62wFsNxPUxhkXAy+h9X/Gp2lexQwyzRKJsZDyzEZ8P4VjOMs/olg+\n0Juy4Vl4CwKBgQCHEzxqvDIE8Gxej+ORBcW2wj69LXU89nNUJrqdalLZ7aiNSViL\nKGPL+2zzX4kbvCC+WlPD0AXt7eL5fddN2nf3tubNUmRFL9qPjSDkbKr1IIScZryV\nl1J87vI1x5cyoLDSPSWUH0oOk+hyFB0WVLf6TVl8WKg8Wct3p3Bc6zgJmQKBgDcN\nd90e7CyTr6xInuVv52+Q8RP72vr/VXGVGE6HjBMXNSkn5pRPd6P6DOUR8mlHIGeT\nHxGnUPIZyvzCXJsAE0vr4dUouFyueK+ENgBZVQOb2kiUAFfqNpHRmkJEA0rKxqTH\nhg87fMVUagtWKfcMQyYoC6Pi7hzEOwkLpjfEwGMnAoGBAMFE/y0pTjyqK6Ivjk+y\n2ttyqh+4BtKHAzp3G2FgZosVenzrT5aym61+GPUR58s7npSixGev20PbvUuG5Qib\nneJBpU+aydzrIyjrR7QF0wtKniiF9MUyQdea/upGZXE+Ws8d3R6H7Pu9jcq2qZsE\nNrjQ1sfbAZaqECPNDIOlkaKY\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-p51ga@smart-desk-using-iot-pla-63534.iam.gserviceaccount.com",
+  "client_id": "101604520886727735276",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-p51ga%40smart-desk-using-iot-pla-63534.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
