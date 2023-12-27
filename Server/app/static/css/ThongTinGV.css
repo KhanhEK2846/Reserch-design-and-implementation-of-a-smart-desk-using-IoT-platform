@@ -54,7 +54,19 @@ body{
     height: 150px;
 
 }
+.image-THEGV{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom:50px;
+    margin-left:25px;
+    margin-right: 25px;
+    width: 100%;
+}
+.image-THEGV img{
+    width: 200px;
+    height: 150px;
 
+}
 
 .chiadoi{
     width: 1111px;
