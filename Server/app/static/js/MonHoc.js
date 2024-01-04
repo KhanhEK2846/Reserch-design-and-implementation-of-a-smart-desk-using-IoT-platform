@@ -1,6 +1,6 @@
 // Tìm các nút cần thêm sự kiện click
-var btnInfoStudent = document.querySelector("#btnInfoStudent");
-var btnSubject = document.querySelector("#btnSubject");
+var btnInfoStudent = document.getElementById("btnInfoStudent");
+var btnSubject = document.getElementById("btnSubject");
 
 
 // Thêm sự kiện click vào các nút

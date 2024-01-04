@@ -1,7 +1,7 @@
-var btnInfoStudent = document.querySelector("#btnInfoLecturer");
-var btnSubject = document.querySelector("#btnClasses");
-var btnSubject = document.querySelector("#btnManage");
-var btnSearch = document.querySelector("#btnSearch");
+var btnInfoStudent = document.getElementById("btnInfoLecturer");
+var btnSubject = document.getElementById("btnClasses");
+var btnSubject = document.getElementById("btnManage");
+var btnSearch = document.getElementById("btnSearch");
 
 // Thêm sự kiện click vào các nút
 btnInfoStudent.addEventListener("click", function() {
