@@ -1,11 +1,12 @@
-from flask import Flask,render_template,request, redirect, session
+from flask import Flask,render_template,request, redirect, session, jsonify
 from firebase_admin import initialize_app, credentials, db
 import pyrebase
 
 
 cred = credentials.Certificate("app/key.json")
 default_app = initialize_app(credential=cred,options={'databaseURL':'https://smart-desk-using-iot-pla-63534-default-rtdb.firebaseio.com/'})
-rtdb = db.reference('/Test')
+#rtdb = db.reference('/Test')
+ref = db.reference('/LopDay')
 
 app = Flask(__name__)
 
@@ -66,6 +67,15 @@ def DangKy():
         return render_template('DangKy.html')
     if request.method == "POST":
         return
+    
+@app.route('/LopDay', methods=['GET'])
+def get_class_info():
+    try:
+        class_info = ref.get()
+        return jsonify({"class_info": class_info})
+
+    except Exception as e:
+        return jsonify({"error": str(e)})
 
 
 @app.errorhandler(404)
