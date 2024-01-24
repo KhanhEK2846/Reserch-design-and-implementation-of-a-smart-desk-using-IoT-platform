@@ -1,37 +1,51 @@
 <!DOCTYPE html>
-    <head>
-        <title>Quản lí</title>
-        <link rel="stylesheet" href="./../static/css/QuanLy.css">
-    </head>
-    <body>
-        <div class="container">
-            <img src="./../static/Img/image-3.webp" width="100px" height="100px"  alt="UIT" >
-            <h1  style="color:blue;">KỸ THUẬT HỆ THỐNG MÁY TÍNH - CE410.O11.MTCL</h1>
-        </div>
-        <hr width="100%" size="3px" color=" blue">
-        <table  align="center" border="4" style="width:100% ; border-style:solid;position:absolute;">
-            <tr>
-                <td style="width:30%; border:solid;font-size:32px ;  padding:10px;">
-                    <ul id="left-list">
-                    <li onclick="changeRightContent('Nội dung cho Thông tin sinh viên')">Thông tin sinh viên</li>
-                    <li onclick="changeRightContent('Nội dung cho Môn học')">Môn học</li>
-                    <li onclick="changeRightContent('Nội dung cho Quản lí')">Quản lí</li>
-                    </ul>
-                </td>
+<head>
+	<title>Quản lí</title>
+	<link rel="stylesheet" href="./../static/css/QuanLy.css" />
+	<link rel="icon" href="./../static/Img/image-3.webp" />
+</head>
+<body>
+	<div class="container">
+		<img
+			src="./../static/Img/image-3.webp"
+			width="100px"
+			height="100px"
+			alt="UIT"
+		/>
+		<h1 style="color: blue">KỸ THUẬT HỆ THỐNG MÁY TÍNH - CE410.O11.MTCL</h1>
+	</div>
+	<hr width="100%" size="3px" color=" blue" />
+	<table
+		align="center"
+		border="4"
+		style="width: 100%; border-style: solid; position: absolute"
+	>
+		<tr>
+			<td style="width: 30%; border: solid; font-size: 32px; padding: 10px">
+				<ul id="left-list">
+					<li onclick="changeRightContent('Nội dung cho Thông tin sinh viên')">
+						Thông tin sinh viên
+					</li>
+					<li onclick="changeRightContent('Nội dung cho Môn học')">Môn học</li>
+					<li onclick="changeRightContent('Nội dung cho Quản lí')">Quản lí</li>
+				</ul>
+			</td>
 
-                <td id="right-content" style="width: 70%; border:solid ;font-size:32px ; padding:10px;" >
-                    <h2>Nội dung</h2>
-                    <p>Nhấp vào bên trái để xem nội dung</p>
-                </td>
-            </tr>
-        </table>
-        <script>
-            function changeRightContent(content) {
-                // Lấy thẻ td bên phải
-                var rightContent = document.getElementById("right-content");
-                // Thay đổi nội dung của bảng bên phải
-                rightContent.innerHTML = "<h2>Nội dung</h2><p>" + content + "</p>";
-            }
-        </script>
-        
-    </body>
+			<td
+				id="right-content"
+				style="width: 70%; border: solid; font-size: 32px; padding: 10px"
+			>
+				<h2>Nội dung</h2>
+				<p>Nhấp vào bên trái để xem nội dung</p>
+			</td>
+		</tr>
+	</table>
+	<script>
+		function changeRightContent(content) {
+			// Lấy thẻ td bên phải
+			var rightContent = document.getElementById("right-content");
+			// Thay đổi nội dung của bảng bên phải
+			rightContent.innerHTML = "<h2>Nội dung</h2><p>" + content + "</p>";
+		}
+	</script>
+</body>

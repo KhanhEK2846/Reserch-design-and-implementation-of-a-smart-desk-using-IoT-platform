@@ -47,10 +47,10 @@ def logout():
     session.pop('user')     
     return redirect('/')                                 
 
-@app.route('/Test',methods=['GET', 'POST'])
-def Test():
-    rtdb.set({'hello': 'nothing'})
-    return rtdb.get()
+# @app.route('/Test',methods=['GET', 'POST'])
+# def Test():
+#     rtdb.set({'hello': 'nothing'})
+#     return rtdb.get()
 
 @app.route('/',methods=['GET', 'POST'])
 def LogIn():
@@ -68,6 +68,23 @@ def DangKy():
     if request.method == "POST":
         return
     
+@app.route("/ThongTin",methods=['GET', 'POST'])
+def Information():
+    return render_template('ThongTinSV.html')
+    #return render_template('ThongTinGV.html')
+
+@app.route("/QuanLy",methods=['GET', 'POST'])
+def Manage():
+    return render_template('QuanLy.html')
+
+@app.route("/QuanLySV",methods=['GET', 'POST'])
+def ManageStudent():
+    return render_template('QuanLySV.html')
+
+@app.route("/MonHoc",methods=['GET', 'POST'])
+def Subject():
+    return render_template('MonHoc.html')
+
 @app.route('/LopDay', methods=['GET'])
 def get_class_info():
     try:
